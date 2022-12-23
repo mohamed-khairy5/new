@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY jj.java .
+COPY ja.java .
 
-RUN javac jj.java
+RUN javac ja.java
 
-CMD java jj
+CMD java ja
